@@ -9,6 +9,10 @@ client = commands.Bot(command_prefix='!')
 # Load the BigGAN model
 model = hub.load("https://tfhub.dev/deepmind/biggan-256/2")
 
+# Read Discord bot token from token.txt
+with open('token.txt', 'r') as f:
+    TOKEN = f.read().strip()
+
 @client.event
 async def on_ready():
     print(f'{client.user.name} has connected to Discord!')
@@ -46,4 +50,4 @@ async def generate(ctx, *args):
     await ctx.send(f"Generating your {obj} image in {style} style with {resolution} resolution for {purpose}. Please wait...")
     await ctx.send(file=discord.File('generated_image.jpg'))
 
-client.run('your-bot-token')
+client.run(TOKEN)
