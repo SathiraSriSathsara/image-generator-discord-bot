@@ -20,6 +20,13 @@ To use this bot, you need to have the following installed:
 4. Run the bot using the command `python bot.py` in your terminal.
 5. In your Discord server, use the command `!generate [object] [style] [resolution] [purpose]` to generate a customized image.
 
+ `[object]` is the object you want to generate, e.g., spider-man, cat, dog, etc.<br>
+ `[style]` is the style you want to apply to the object, e.g., cyberpunk, cartoon, watercolor, etc.<br>
+ `[resolution]` is the resolution of the image you want to generate, e.g., 4k, 1080p, 720p, etc.<br>
+ `[purpose]` is the purpose of the image you want to generate, e.g., wallpaper, avatar, meme, etc.<br>
+
+The bot will generate the image and send it to the Discord channel.
+
 Example: `!generate spider-man cyberpunk 4k wallpaper`
 
 ## Contributing
