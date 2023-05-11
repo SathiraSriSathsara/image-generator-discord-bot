@@ -14,7 +14,7 @@ To use this bot, you need to have the following installed:
 
 ## Usage
 
-1. Clone this repository to your local machine using `git clone https://github.com/<your-username>/discord-ai-image-generator-bot.git`
+1. Clone this repository to your local machine using `git clone https://github.com/SathiraSriSathsara/image-generator-discord-bot.git`
 2. Navigate to the directory using `cd discord-ai-image-generator-bot`
 3. Create a `token.txt` file in the same directory and paste your Discord bot token in the file.
 4. Run the bot using the command `python bot.py` in your terminal.
