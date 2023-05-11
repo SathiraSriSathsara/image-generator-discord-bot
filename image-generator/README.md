@@ -70,6 +70,11 @@ image.save('generated_image.jpg')
 
 In this example, we generate a noise vector with a specific seed to ensure that the image is reproducible. You can modify the seed or generate the noise vector in other ways to create different images.
 
+#License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
 
 
 
